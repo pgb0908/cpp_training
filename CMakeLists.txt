@@ -4,4 +4,5 @@ project(cpp_training)
 set(CMAKE_CXX_STANDARD 17)
 
 add_subdirectory(template)
+add_subdirectory(stringTomethod)
 
