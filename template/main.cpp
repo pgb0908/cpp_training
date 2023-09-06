@@ -26,7 +26,7 @@ class Chain {
 public:
     template<typename T, typename ...Args>
     Chain& add(Args&&... args){  // R-value 인자들로 넘겨줌
-        chain_.push_back(std::make_unique<Filter>(std::forward<Args>(args)...)); // forward를 통해 args는 r-value라는 것을 앎
+        chain_.push_back(std::make_unique<T>(std::forward<Args>(args)...)); // forward를 통해 args는 r-value라는 것을 앎
         return *this;
     }
 

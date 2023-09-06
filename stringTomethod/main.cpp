@@ -60,7 +60,7 @@ bool evaluateExpression(const std::string& expression) {
 }
 
 int main() {
-    std::string expression = "(t && t) || f";
+    std::string expression = "(t & t) | f";
     bool result = evaluateExpression(expression);
     std::cout << "Result: " << (result ? "true" : "false") << std::endl;
 
