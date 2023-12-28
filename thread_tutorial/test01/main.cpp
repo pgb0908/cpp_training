@@ -48,7 +48,7 @@ int main() {
 	signal(SIGINT, &sigint_handler);
 	
 	// Initialise the dispatcher with 10 worker threads.
-	Dispatcher::init(10);
+	Dispatcher::init(3);
 	
 	cout << "Initialised.\n";
 	
