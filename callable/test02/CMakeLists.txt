@@ -1,0 +1,1 @@
+add_executable(callable_test02 main.cpp)
