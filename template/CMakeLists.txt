@@ -1,1 +1,2 @@
-add_executable(template1 main.cpp)
+add_subdirectory(c_smart_pointer)
+add_subdirectory(filter_pattern)

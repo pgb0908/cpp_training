@@ -3,9 +3,11 @@ project(cpp_training)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_subdirectory(template)
-add_subdirectory(stringTomethod)
-add_subdirectory(cmakeSample)
-add_subdirectory(thread_tutorial)
 add_subdirectory(callable)
-add_subdirectory(c_smart_pointer)
+add_subdirectory(cmakeSample)
+#add_subdirectory(conan)
+add_subdirectory(multi_thread)
+add_subdirectory(stringTomethod)
+add_subdirectory(template)
+
+
