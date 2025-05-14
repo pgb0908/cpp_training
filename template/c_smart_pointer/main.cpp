@@ -12,7 +12,7 @@ public:
     CuniquePtr() : std::unique_ptr<T>(){
         std::cout << "counstructor" << std::endl;
     }
-    CuniquePtr(T* object) : std::unique_ptr<T>(){
+    explicit CuniquePtr(T* object) : std::unique_ptr<T>(object){
         object->print();
     }
 };

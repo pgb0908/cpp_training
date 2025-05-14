@@ -9,5 +9,5 @@ add_subdirectory(cmakeSample)
 add_subdirectory(multi_thread)
 add_subdirectory(stringTomethod)
 add_subdirectory(template)
-
+add_subdirectory(configContainer)
 

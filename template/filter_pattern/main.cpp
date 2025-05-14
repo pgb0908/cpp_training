@@ -11,6 +11,7 @@ public:
 
     }
 
+
     void show() const{
         std::cout << a_ << " " << b_ << " " << c_ << std::endl;
     }
@@ -48,6 +49,7 @@ int main() {
     for(const auto& temp : item){
         temp->show();
     }
+
 
     return 0;
 }

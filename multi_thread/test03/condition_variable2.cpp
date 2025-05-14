@@ -30,7 +30,9 @@ int main() {
         std::cout << "Data is ready." << std::endl;
     } else {
         std::cout << "Timeout occurred." << std::endl;
+        mtx.unlock();
     }
+
 
     worker.join();
 
