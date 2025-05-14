@@ -10,4 +10,5 @@ add_subdirectory(multi_thread)
 add_subdirectory(stringTomethod)
 add_subdirectory(template)
 add_subdirectory(configContainer)
+add_subdirectory(thread)
 
